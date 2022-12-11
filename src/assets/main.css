@@ -1,0 +1,19 @@
+@import "./base.css";
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+  /* background: #000; */
+}
+.spin {
+  position: fixed;
+  inset: 0;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.8);
+  z-index: 999;
+}
+.navbar-nav .router-link-active:not(.dropdown-menu .router-link-active) {
+  color: #fff !important;
+}
+.bg-custom {
+  background: #fce7f3 !important;
+}
